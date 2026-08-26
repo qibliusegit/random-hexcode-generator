@@ -29,7 +29,7 @@ def func():
 myaction.triggered.connect(func)
 
 mypopup = QDialog()
-mypopup.setWindowTitle("hexcode gambling")
+mypopup.setWindowTitle("hexcode gambling!")
 
 mylayout = QVBoxLayout()
 mybutton = QPushButton("click me for a random color!")
@@ -40,12 +40,12 @@ mylayout.addWidget(mybutton)
 mypopup.setLayout(mylayout)
 
 mainmenu = Krita.instance().activeWindow().qwindow().menuBar()
-mymenu = mainmenu.addMenu("my menu")
+mymenu = mainmenu.addMenu("Hexcode Gambling")
 
 def openpopup():
     mypopup.exec()
 
-mymenuitem = QAction("run action")
+mymenuitem = QAction("Start Gambling")
 mymenuitem.triggered.connect(openpopup)
 
 mymenu.addAction(mymenuitem)
