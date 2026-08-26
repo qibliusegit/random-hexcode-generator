@@ -7,16 +7,15 @@ import pyperclip as clip
 
 hexes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"]
 inst = Krita.instance()
-print(inst)
 
-newDoc = inst.createDocument(50, 50, "untitled", "RGBA", "U8", "", 67.0)
+openDoc = inst.createDocument(500, 500, "untitled", "RGBA", "U8", "", 67.0)
 
-inst.activeWindow().addView(newDoc)
+inst.activeWindow().addView(openDoc)
 
 myaction = QAction("gambling")
 
 def func():
-    print("maybe i do know how to code", flush=True)
+    print("gambling start!", flush=True)
     x = 0
     hexcode = "#"
     while x <= 5:
@@ -26,14 +25,14 @@ def func():
         x += 1
     clip.copy(hexcode)
     clip.paste()
-    mybutton.setText(hexcode + "(click to copy color and get a new one!)")
+    mybutton.setText(hexcode + "(click me to copy color and get a new one!)")
 myaction.triggered.connect(func)
 
 mypopup = QDialog()
-mypopup.setWindowTitle("my awesome popup")
+mypopup.setWindowTitle("hexcode gambling")
 
 mylayout = QVBoxLayout()
-mybutton = QPushButton("click me!")
+mybutton = QPushButton("click me for a random color!")
 
 mybutton.clicked.connect(func)
 
