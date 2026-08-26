@@ -10,4 +10,4 @@ This project is an extension for the drawing tool Krita. It adds another menu op
 * * *
 Possible future plans for this are to show the name of the color or an image of it when you press the button, and also to maybe port it to otherr platforms.
 
-This project was made for Hack Club's [Wrangler](https://wrangler.hackclub.com)
+This project was made for Hack Club's [Wrangler](https://wrangler.hackclub.com).
