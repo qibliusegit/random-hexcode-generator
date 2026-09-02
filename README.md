@@ -18,3 +18,12 @@ _an example of a random hexcolor being generated_
 Possible future plans for this are to show the name of the color or an image of it when you press the button, and also to maybe port it to other platforms.
 
 This project was made for Hack Club's [Wrangler](https://wrangler.hackclub.com).
+
+# HOW TO INSTALL THE PLUGIN: #
+
+1. Install 'gambling.zip' found in the directory.
+2. Open Krita, click on tools, then scripts, then import python plugin from file
+3. Click on gambling.zip
+4. Make sure that the plugin is enabled in Settings -> Configure Krita -> Python Plugin Manager
+5. Have fun gambling!
+
