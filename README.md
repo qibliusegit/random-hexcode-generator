@@ -21,7 +21,7 @@ This project was made for Hack Club's [Wrangler](https://wrangler.hackclub.com).
 
 # HOW TO INSTALL THE PLUGIN: #
 
-1. Install 'gambling.zip' found in the directory.
+1. Download 'gambling.zip' found in the directory.
 2. Open Krita, click on tools, then scripts, then import python plugin from file
 3. Click on gambling.zip
 4. Make sure that the plugin is enabled in Settings -> Configure Krita -> Python Plugin Manager
