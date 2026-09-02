@@ -18,7 +18,7 @@ def func():
     x = 0
     hexcode = "#"
     while x <= 5:
-        value = r.randint(0, 14)
+        value = r.randint(0, 15)
         strhex = hexes[value]
         hexcode += strhex
         x += 1
